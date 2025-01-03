@@ -13,12 +13,20 @@ h1 {
     display: flex; /* This turns the divs into a row within the container */
     flex-direction: row;
     justify-content: center;
-    align-items: flex-end;
-    
+    align-items: flex-start; 
+    flex-wrap: wrap;    
 }
 
 #container div {
     width: 200px;
     height: 200px;
     text-align: center;
+}
+
+div:nth-last-of-type(2){
+    align-self: flex-end;
+}
+
+div:nth-last-of-type(3){
+    align-self: center;
 }
