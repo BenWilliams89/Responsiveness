@@ -48,9 +48,9 @@ Align Content: space between columns - * Without flex wrap - align content does 
 
 Align-Self: to a individual div
 
-- align-self: flex-end;
-- align-self: flex-end;
-- align-self: flex-end;
+- align-self: flex-start; = aligns one item to the start
+- align-self: flex-end; = aligns one item to the end
+- align-self: center; = aligns one item to the center
 
 
 Flex-Basis: sets the width & height when in a row/coloumn
@@ -60,6 +60,31 @@ Flex-Basis: sets the width & height when in a row/coloumn
 -flex-shrink: 2; - this sets how it shrinks down
 
 
-Flex Shorthand:
+Flex Shorthand: 
 
-flex:
+flex: 1; = grow
+flex: 1 2; = grow and size
+flex: 1 2 3; = grow shrnk and size
+
+
+Responsive Design: Create websites that look good on all devices
+
+- Media Queries - Examples
+
+@Media (max-width: 800px) {
+    .sidebar {
+        Display: none;
+    }
+    .main {
+        width: 80%;
+    }
+} 
+
+@media (max-width: 30em) and (orientation: landscape) {
+    #container {
+        flex-direction: coloumn;
+        Justify-content: center
+    }
+}
+
+
