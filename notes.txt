@@ -1,0 +1,35 @@
+Flexbox:
+
+- Helps lay out content in rows and columns
+
+Display Flex:
+
+- Sets the content/fiv to a rows
+
+Flex-Directions:
+
+- Flex direction: row = set a row
+- Flex directon: row-reverse = The row is now reversed - the colour at the front is now at the back of the row
+- flex-direction: column: = top to bottom 
+- flex-direction: column-reverse = bottom to top
+
+Justify Content: How the content is distrubuted
+
+- Justify-Content: space-between; = creates space between the divs
+- Justify-Content: center; = centers the content
+- Justify-Content: flex-end; = pushes the content to the end
+- Justify-Content: space-around; = gives space around each element
+- Justify-Content: space-evenly; = gives the same space to each div
+
+Flex: Wrap - New line or column
+
+- flex: wrap; = top to bottom - new column
+- flex: wrap- reverse; = reverse the column
+
+Align Items: - Place items in line with each other
+
+- align-items: flex-start; = places at the top of the page
+- align-items: flex-end; = moves to the bottom of the page like the footer
+- align-items: center; = moves to the middle of the page
+- align-items: baseline; = uses any text to align the box
+-
