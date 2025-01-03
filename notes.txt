@@ -48,4 +48,18 @@ Align Content: space between columns - * Without flex wrap - align content does 
 
 Align-Self: to a individual div
 
-- align-self: flex-end
+- align-self: flex-end;
+- align-self: flex-end;
+- align-self: flex-end;
+
+
+Flex-Basis: sets the width & height when in a row/coloumn
+
+-flex-basis: 200px; - this overrides the height set
+-flex-grow: 1; - this sets the size the div will grow in comparision to the others
+-flex-shrink: 2; - this sets how it shrinks down
+
+
+Flex Shorthand:
+
+flex:
