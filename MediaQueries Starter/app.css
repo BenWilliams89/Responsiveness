@@ -5,10 +5,15 @@ body {
 h1 {
     font-size: 6em;
     text-align: center;
+    color: red;
 }
 nav {
     font-size: 1.5em;
+    display: flex;
+    justify-content: space-between; /* This seperates the 3 different links */
 }
+
+
 
 ul,li {
     display: inline;
@@ -16,37 +21,13 @@ ul,li {
     padding: 0;
 }
 
-/*Media Queries:*/
-
-
-/* @media (width: 800px){ /* This means when the screen size gets to 800px change the text color to aqua 
-    h1 {
-        color: aqua;
-    }
-} */
-
-/* @media (min-width: 800px){  The text would start at black (default) then when it gets to 800 and above the color changes to aqua 
-    h1 {
-        color: aqua;
-    }
-} */
-
- /* @media (max-width: 800px){  /*The text would starts with aqua then when it gets to 800 and above the color changes back to black 
-    h1 {
-        color: aqua;
-    }
-} */
-
-
-/* @media (min-width: 600px) and (max-width: 800px){  This combines two sizes
-    h1 {
-        color: aqua;
-    }
-} */
-
-h1{
-    color: red;
+ul {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    justify-content: space-evenly;
 }
+
 
 @media (min-width: 400px) {
     h1 {
@@ -66,15 +47,53 @@ h1{
     }
 }
 
-@media (orientation: landscape) {
-    body {
-        background-color: magenta;
+
+@media (max-width: 768px){
+    h1 {
+        font-size: 4em;
+    }
+    nav, nav ul {
+        flex-direction: column;
+        align-items: center;   
+    }
+    
+}
+
+@media (max-width: 576px){
+    h1 {
+        font-size: 3em;
     }
 }
 
 
 
+/*Media Queries examples:*/
 
+
+/* @media (width: 800px){ /* This means when the screen size gets to 800px change the text color to aqua 
+    h1 {
+        color: aqua;
+    }
+} */
+
+/* @media (min-width: 800px){  The text would start at black (default) then when it gets to 800 and above - the color changes to aqua 
+    h1 {
+        color: aqua;
+    }
+} */
+
+ /* @media (max-width: 800px){  /*The text would starts with aqua then when it gets to 800 and above - the color changes back to black 
+    h1 {
+        color: aqua;
+    }
+} */
+
+
+/* @media (min-width: 600px) and (max-width: 800px){  This combines two sizes
+    h1 {
+        color: aqua;
+    }
+} */
 
 
 

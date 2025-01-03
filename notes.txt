@@ -87,4 +87,17 @@ Responsive Design: Create websites that look good on all devices
     }
 }
 
+Break Points: - The size the screen changes device size
+
+- Small devices = 576px
+@media (min-width: 576px) {...}
+
+- Medium devices (Tablets) = 768px
+@media (min-width: 768px) {...}
+
+- Large Devices (Desktops) = 992px
+@media (min-width: 992px) {...}
+
+- Extra Large Devices = 1200px
+@media (min-width: 1200px) {...}
 
